@@ -1,5 +1,6 @@
 
 /* Custom CSS */
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -7,6 +8,12 @@
     z-index: 1000;
 }
 
+
+
+.container-fluid {
+  text-align: left;
+  background-color: gray;
+}
 
 .dropdown-menu {
     width: 100%;
