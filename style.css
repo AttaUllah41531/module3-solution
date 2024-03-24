@@ -1,0 +1,25 @@
+
+/* Custom CSS */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.dropdown-menu {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .dropdown-menu {
+        display: block;
+    }
+}
